@@ -1,0 +1,31 @@
+flowchart TD
+    U[Usuario] --> P[Preparar contexto]
+    P --> R{Router LangGraph}
+
+    R -->|CONSULTA| C[Nodo Consulta]
+    R -->|GESTION| G[Nodo Gestión]
+    R -->|FUERA| F[Respuesta controlada]
+
+    C --> CT[Tools de consulta]
+    CT --> RAG[RAG: Mistral Embed + FAISS]
+    CT --> ML[Tool recordar / memoria persistente]
+    RAG --> C
+    ML --> C
+
+    G --> PL[Planificador]
+    PL --> TW[Tools de validación y escritura]
+    TW --> O{Observación}
+
+    O -->|OK| FIN[Finalizar]
+    O -->|Faltan datos| TP[Persistir tarea pendiente]
+    O -->|Rechazo reintentable| RP[Replanificar]
+    O -->|Restricción definitiva| FIN
+
+    RP --> PL
+    TP --> FIN
+    C --> FIN
+    F --> FIN
+
+    FIN --> MC[Memoria de corto plazo]
+    FIN --> MLP[Memoria de largo plazo]
+    FIN --> RESP[Respuesta + trazabilidad]
