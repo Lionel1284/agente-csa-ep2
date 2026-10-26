@@ -1,0 +1,21 @@
+==========================================================================================
+USUARIO: El tipo de servicio es exámenes preventivos. El coordinador será Coordinador C y los recursos ya están confirmados.
+
+🧩 Orquestador: LangGraph StateGraph
+
+🧭 Decisiones del agente:
+  - LangGraph router -> GESTION
+  - Continuación validada de TAREA-20261026051337520217: se reutilizan únicamente datos acumulados verificados + mensaje actual
+  - Tarea TAREA-20261026051337520217 completada, verificada y consolidada como estado final.
+
+🔧 Herramientas ejecutadas:
+  [continuación: crear] crear_operativo({"empresa": "Logística Pacífico SpA", "fecha": "2026-12-15", "ubicacion": "Maipú", "tipo_servicio": "exámenes preventivo) -> ok
+  [continuación: programar] programar_operativo({"id_operativo": "OP-004", "coordinador": "Coordinador C", "recursos_confirmados": true}) -> ok
+  [continuación: verificar] consultar_operativo({"id_operativo": "OP-004"}) -> ok
+
+🤖 RESPUESTA:
+Se retomó la tarea pendiente. El operativo OP-004 fue creado y quedó en estado Programado con Coordinador C. Fuente operativa: INT-001.
+
+⏱ 1.7 s | tokens: 0
+✔ E2b completó la continuidad: OP-004 | estado: Programado | coordinador: Coordinador C
+✔ Guardia de IDs: INT-001 fue rechazado correctamente como id_operativo.
