@@ -1,0 +1,45 @@
+{
+  "OP-001": {
+    "id": "OP-001",
+    "empresa": "Empresa Andes Ltda.",
+    "fecha": "2026-12-03",
+    "ubicacion": "Providencia, Santiago",
+    "tipo_servicio": "Exámenes preventivos",
+    "participantes": 40,
+    "coordinador": "Coordinador A (ficticio)",
+    "recursos_confirmados": true,
+    "estado": "Programado",
+    "documentos": ["Documentación administrativa"],
+    "historial": [],
+    "incidencias": []
+  },
+  "OP-002": {
+    "id": "OP-002",
+    "empresa": "Constructora Sur SpA",
+    "fecha": "2026-09-15",
+    "ubicacion": "San Bernardo",
+    "tipo_servicio": "Vacunación",
+    "participantes": 25,
+    "coordinador": "Coordinador B (ficticio)",
+    "recursos_confirmados": true,
+    "estado": "Finalizado",
+    "documentos": ["Documentación administrativa","Documentos de cierre"],
+    "historial": [],
+    "incidencias": [],
+    "observacion_cierre": "Actividades completadas."
+  },
+  "OP-003": {
+    "id": "OP-003",
+    "empresa": "Minera Norte S.A.",
+    "fecha": "2026-12-10",
+    "ubicacion": "Antofagasta",
+    "tipo_servicio": null,
+    "participantes": 60,
+    "coordinador": null,
+    "recursos_confirmados": false,
+    "estado": "Registrado",
+    "documentos": [],
+    "historial": [],
+    "incidencias": []
+  }
+}
