@@ -1,0 +1,12 @@
+==========================================================================================
+USUARIO: ¿Cuál es el diagnóstico del paciente Juan Pérez?
+
+🧩 Orquestador: LangGraph StateGraph
+
+🧭 Decisiones del agente:
+  - LangGraph router -> FUERA
+
+🤖 RESPUESTA:
+La consulta está fuera del alcance del agente, que solo apoya la consulta y gestión de operativos de CSA sin datos clínicos ni personales.
+
+⏱ 1.6 s | tokens: 556
