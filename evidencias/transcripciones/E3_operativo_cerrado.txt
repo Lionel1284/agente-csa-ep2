@@ -1,0 +1,23 @@
+==========================================================================================
+USUARIO: Cambia la fecha del operativo OP-002 al 2026-12-20.
+
+🧩 Orquestador: LangGraph StateGraph
+
+🧭 Decisiones del agente:
+  - LangGraph router -> GESTION
+  - Plan v1: 1.Consultar estado actual del operativo OP-002 para validar permisos y restricciones [alta] | 2.Verificar si la modificación de fecha requiere aprobación o cumple INT-003 [alta] | 3.Actualizar la fecha del operativo OP-002 a 2026-12-20 si está permitido [alta]
+  - Restricción definitiva en actualizar_operativo: se detiene sin replanificar
+
+🔧 Herramientas ejecutadas:
+  [paso 1] consultar_operativo({"id_operativo": "OP-002"}) -> ok
+  [paso 2] buscar_procedimientos({"consulta": "modificación de fecha en operativo finalizado"}) -> sin_evidencia
+  [paso 2] buscar_procedimientos({"consulta": "modificación de fecha en operativo"}) -> ok
+  [paso 2] buscar_procedimientos({"consulta": "requisitos para modificar operativo finalizado"}) -> omitido
+  [paso 3] actualizar_operativo({"id_operativo": "OP-002", "campo": "fecha", "valor": "2026-12-20", "motivo": "Solicitud de ajuste en fecha del operativ) -> rechazado
+
+🤖 RESPUESTA:
+No es posible modificar la fecha del operativo **OP-002** al 2026-12-20, ya que está **finalizado** y su estado actual no admite cambios según los procedimientos **INT-003-CH02** y **INT-004**. El sistema no permite actualizar datos en operativos cerrados, incluso para registrar modificaciones en su historial.
+
+*Fuente: Registro del operativo OP-002 / INT-003-CH02 / INT-004.*
+
+⏱ 24.9 s | tokens: 10504
