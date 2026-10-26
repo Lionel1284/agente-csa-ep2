@@ -1,0 +1,9 @@
+langchain-core
+langchain-mistralai
+langchain-text-splitters
+langgraph
+faiss-cpu
+mistralai
+numpy
+pandas
+jupyter
