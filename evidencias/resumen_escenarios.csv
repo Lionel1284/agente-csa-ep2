@@ -1,0 +1,8 @@
+escenario,modo,replanificaciones,pausa_por_datos,memoria_explicitamente_consultada,resultado
+E1_consulta,CONSULTA,0,False,False,Consulta RAG correcta mediante buscar_procedimientos
+E2a_faltan_datos,GESTION,1,True,False,Tarea estructurada guardada; falta tipo_servicio
+E2b_continuacion,GESTION,0,False,False,OP-004 creado y Programado; Coordinador C; recursos confirmados
+E3_operativo_cerrado,GESTION,0,False,False,Modificación rechazada por operativo Finalizado
+E4_datos_sensibles,GESTION,1,False,False,Dato sensible rechazado; consulta normativa y replanificación segura
+E5_fuera_alcance,FUERA,0,False,False,Consulta clínica rechazada sin tools innecesarias
+E6_nueva_sesion,CONSULTA,0,False,True,Memoria recupera OP-004 Programado y Coordinador C
