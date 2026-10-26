@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Estado generado en ejecución
+estado_agente/
+CSA_agente_EP2/
+memoria_largo_plazo/
+tarea_pendiente.json
+operativos.json
+
+# SO / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
