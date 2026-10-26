@@ -1,0 +1,22 @@
+==========================================================================================
+USUARIO: ¿Qué pasos debo seguir para cerrar un operativo?
+
+🧩 Orquestador: LangGraph StateGraph
+
+🧭 Decisiones del agente:
+  - LangGraph router -> CONSULTA
+
+🔧 Herramientas ejecutadas:
+  [consulta] buscar_procedimientos({"consulta": "pasos para cerrar un operativo"}) -> ok
+
+🤖 RESPUESTA:
+Para cerrar un operativo, sigue estos pasos según el **INT-004-CH01**:
+
+1. **Verifica** que todas las actividades programadas estén completadas y que la documentación esté cargada correctamente.
+2. **Revisa** que los registros administrativos estén completos.
+3. **Registra** una observación de cierre en el sistema.
+4. **Cambia el estado** del operativo a **"Finalizado"**.
+
+Una vez cerrado, solo usuarios autorizados podrán realizar modificaciones. Fuente: INT-004-CH01.
+
+⏱ 6.1 s | tokens: 2381
