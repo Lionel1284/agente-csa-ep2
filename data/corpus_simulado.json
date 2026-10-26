@@ -1,0 +1,74 @@
+[
+  {
+    "id": "INT-001",
+    "titulo": "Procedimiento para creación de un nuevo operativo",
+    "tipo": "Procedimiento interno simulado",
+    "origen": "interna_simulada",
+    "fuente": "CSA - Documento ficticio",
+    "referencia": "Documento ficticio con fines académicos",
+    "contenido": "Para crear un nuevo operativo de salud, el colaborador responsable debe\nregistrar inicialmente los antecedentes generales del operativo,\nincluyendo nombre de la empresa solicitante, fecha programada, ubicación,\ntipo de servicio requerido y cantidad estimada de participantes.\n\nUna vez registrados los antecedentes, el coordinador operativo debe\nrevisar que la información esté completa y asignar al personal requerido.\n\nPosteriormente se debe confirmar la disponibilidad de recursos,\nequipamiento y profesionales necesarios.\n\nUna vez validada la información, el operativo cambia al estado\n'Programado' y debe notificarse al responsable de coordinación."
+  },
+  {
+    "id": "INT-002",
+    "titulo": "Procedimiento de carga de documentación de operativos",
+    "tipo": "Procedimiento interno simulado",
+    "origen": "interna_simulada",
+    "fuente": "CSA - Documento ficticio",
+    "referencia": "Documento ficticio con fines académicos",
+    "contenido": "La documentación asociada a un operativo debe cargarse en el repositorio\ncorrespondiente utilizando el identificador único del operativo.\n\nLos documentos deben clasificarse según su tipo antes de ser almacenados.\nEntre las categorías permitidas se encuentran documentación administrativa,\ninformes de ejecución, respaldos operativos y documentos de cierre.\n\nAntes de realizar la carga, el colaborador debe verificar que el archivo\ncorresponda al operativo seleccionado y que su formato sea válido.\n\nUna vez almacenado el documento, el sistema debe registrar la fecha de carga\ny el usuario responsable para mantener trazabilidad."
+  },
+  {
+    "id": "INT-003",
+    "titulo": "Procedimiento para modificación de un operativo",
+    "tipo": "Procedimiento interno simulado",
+    "origen": "interna_simulada",
+    "fuente": "CSA - Documento ficticio",
+    "referencia": "Documento ficticio con fines académicos",
+    "contenido": "Cuando sea necesario modificar un operativo ya programado, el colaborador\ndebe ingresar al registro correspondiente y seleccionar la opción de edición.\n\nSe podrán modificar antecedentes como fecha, ubicación, cantidad estimada de\nparticipantes y recursos requeridos mientras el operativo no haya sido cerrado.\n\nLos cambios considerados críticos deberán ser revisados por el coordinador\nresponsable antes de ser confirmados.\n\nCada modificación deberá quedar registrada en el historial del operativo,\nindicando fecha, usuario responsable y descripción del cambio realizado."
+  },
+  {
+    "id": "INT-004",
+    "titulo": "Procedimiento para cierre de un operativo",
+    "tipo": "Procedimiento interno simulado",
+    "origen": "interna_simulada",
+    "fuente": "CSA - Documento ficticio",
+    "referencia": "Documento ficticio con fines académicos",
+    "contenido": "El cierre de un operativo se realiza una vez finalizadas las actividades\nprogramadas y verificada la documentación correspondiente.\n\nEl responsable debe revisar que los registros administrativos se encuentren\ncompletos y que los documentos requeridos hayan sido cargados correctamente.\n\nPosteriormente deberá registrar una observación de cierre y cambiar el estado\ndel operativo a 'Finalizado'.\n\nUna vez cerrado el operativo, las modificaciones posteriores deberán quedar\nrestringidas a usuarios autorizados."
+  },
+  {
+    "id": "INT-005",
+    "titulo": "Protocolo de consulta de procedimientos operativos",
+    "tipo": "Protocolo interno simulado",
+    "origen": "interna_simulada",
+    "fuente": "CSA - Documento ficticio",
+    "referencia": "Documento ficticio con fines académicos",
+    "contenido": "Los colaboradores pueden consultar procedimientos operativos utilizando\nel asistente interno de información.\n\nLas consultas deben formularse indicando claramente el proceso sobre el cual\nse necesita orientación.\n\nEl asistente deberá responder utilizando únicamente la información disponible\nen la base documental autorizada.\n\nCuando no exista información suficiente para responder una consulta, el\nsistema deberá informarlo explícitamente y evitar generar instrucciones que\nno estén respaldadas por una fuente documental."
+  },
+  {
+    "id": "INT-006",
+    "titulo": "Gestión de incidencias durante un operativo",
+    "tipo": "Procedimiento interno simulado",
+    "origen": "interna_simulada",
+    "fuente": "CSA - Documento ficticio",
+    "referencia": "Documento ficticio con fines académicos",
+    "contenido": "Cuando se produzca una incidencia durante un operativo, el colaborador\nresponsable debe registrar el evento indicando su descripción, hora de\nocurrencia y medidas adoptadas.\n\nLas incidencias que afecten la continuidad del operativo deberán ser\ninformadas al coordinador responsable.\n\nCuando la incidencia sea resuelta, deberá actualizarse su estado y registrar\nla acción que permitió solucionar el problema.\n\nEl registro de incidencias debe conservarse asociado al operativo para\nfacilitar su posterior revisión."
+  },
+  {
+    "id": "EXT-001",
+    "titulo": "Protección de datos personales - Ley 19.628",
+    "tipo": "Normativa pública",
+    "origen": "externa_publica",
+    "fuente": "Biblioteca del Congreso Nacional de Chile - LeyChile",
+    "referencia": "Ley N.º 19.628 sobre protección de la vida privada",
+    "contenido": "La legislación chilena sobre protección de la vida privada regula el\ntratamiento de datos personales almacenados en registros o bancos de datos.\n\nSe consideran datos personales aquellas informaciones relacionadas con\npersonas naturales identificadas o identificables.\n\nLos datos sensibles comprenden información relacionada con aspectos de la\nvida privada de las personas, incluyendo antecedentes vinculados con su\nestado de salud físico o psíquico.\n\nEl tratamiento de datos personales debe realizarse conforme a la legislación\naplicable y respetando los derechos de los titulares de los datos."
+  },
+  {
+    "id": "EXT-002",
+    "titulo": "Condiciones sanitarias y ambientales en lugares de trabajo",
+    "tipo": "Normativa pública",
+    "origen": "externa_publica",
+    "fuente": "Biblioteca del Congreso Nacional de Chile - LeyChile",
+    "referencia": "Decreto Supremo N.º 594 del Ministerio de Salud",
+    "contenido": "El Decreto Supremo N.º 594 establece condiciones sanitarias y ambientales\nbásicas que deben cumplir los lugares de trabajo.\n\nLa normativa establece que las empresas deben mantener condiciones\nsanitarias y ambientales necesarias para proteger la vida y salud de los\ntrabajadores.\n\nLos lugares de trabajo deben mantenerse en condiciones adecuadas de orden\ny limpieza y deben considerar condiciones de seguridad y saneamiento\ncompatibles con las actividades desarrolladas.\n\nLa normativa también contempla materias relacionadas con ventilación,\nservicios higiénicos y exposición de trabajadores a determinados agentes\nambientales."
+  }
+]
