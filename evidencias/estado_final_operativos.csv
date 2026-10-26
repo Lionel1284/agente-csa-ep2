@@ -1,0 +1,5 @@
+id,empresa,fecha,tipo_servicio,estado
+OP-001,Empresa Andes Ltda.,2026-12-03,Exámenes preventivos,Programado
+OP-002,Constructora Sur SpA,2026-09-15,Vacunación,Finalizado
+OP-003,Minera Norte S.A.,2026-12-10,,Registrado
+OP-004,Logística Pacífico SpA,2026-12-15,exámenes preventivos,Programado
